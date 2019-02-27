@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,11 +10,22 @@
     #map {
       height:800px;
       width:100%;
+      box-shadow: 1px 1px 15px;
+    }
+    body {
+      background-color: #39db3b;
+    }
+    h1 {
+      color: white;
+      -webkit-text-stroke: 0.5px black;
+      font-size: 40px;
+      font-family: 'Open Sans', sans-serif;
+
     }
   </style>
 </head>
 <body>
-  <h1>Best locations to spark up a joint in Bristol</h1>
+  <h1>Joint map🍃</h1>
   <div id="map"></div>
   <script>
     function initMap(){
